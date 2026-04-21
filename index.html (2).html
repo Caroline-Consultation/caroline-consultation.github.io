@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="6nW8_kqGqPPN4LNCGS_ySMSN_ww55_flAZXp1QuyaFw">
+<meta name="description" content="PrecisionOps Consultation — Executive Assistant and Project Manager for startup and small-business founders. Remote operations, project management, Agile, and workflow automation.">
+<meta name="keywords" content="executive assistant, virtual assistant, project manager, remote project manager, operations support, startup operations, agile project manager, workflow automation, fractional COO, executive VA">
+<title>PrecisionOps Consultation | Agile Project & Operations Partner</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --black: #0E0E0C;
+    --white: #F9F6F0;
+    --cream: #F2EDE3;
+    --ink: #1C1B17;
+    --muted: #6B6860;
+    --accent: #2B5F4E;
+    --accent-light: #E1F0EB;
+    --accent-mid: #4A8C76;
+    --gold: #C4883A;
+    --gold-light: #FAF0E0;
+    --border: rgba(14,14,12,0.12);
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--white);
+    color: var(--ink);
+    font-size: 16px;
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
+
+  /* NAV */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    padding: 1.1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(249,246,240,0.92);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .nav-logo {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.15rem;
+    color: var(--accent);
+    text-decoration: none;
+    letter-spacing: -0.01em;
+  }
+
+  .nav-logo span {
+    color: var(--gold);
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .nav-links a {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--muted);
+    text-decoration: none;
+    transition: color 0.2s;
+    letter-spacing: 0.02em;
+  }
+
+  .nav-links a:hover { color: var(--accent); }
+
+  .nav-cta {
+    background: var(--accent);
+    color: var(--white) !important;
+    padding: 0.5rem 1.25rem;
+    border-radius: 100px;
+    transition: background 0.2s !important;
+  }
+
+  .nav-cta:hover { background: #1d4336 !important; color: var(--white) !important; }
+
+  /* HERO */
+  .hero {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 7rem 5% 4rem;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .hero-eyebrow {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold);
+    background: var(--gold-light);
+    border: 1px solid rgba(196,136,58,0.25);
+    padding: 0.35rem 0.9rem;
+    border-radius: 100px;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(2.4rem, 5vw, 3.8rem);
+    line-height: 1.12;
+    color: var(--black);
+    letter-spacing: -0.02em;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-title em {
+    font-style: italic;
+    color: var(--accent);
+  }
+
+  .hero-sub {
+    font-size: 1.05rem;
+    color: var(--muted);
+    max-width: 440px;
+    margin-bottom: 2.5rem;
+    line-height: 1.75;
+  }
+
+  .hero-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary {
+    background: var(--accent);
+    color: var(--white);
+    padding: 0.85rem 2rem;
+    border-radius: 100px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+    display: inline-block;
+  }
+
+  .btn-primary:hover { background: #1d4336; transform: translateY(-1px); }
+
+  .btn-outline {
+    color: var(--ink);
+    padding: 0.85rem 2rem;
+    border-radius: 100px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-decoration: none;
+    border: 1.5px solid var(--border);
+    transition: border-color 0.2s, transform 0.15s;
+    display: inline-block;
+  }
+
+  .btn-outline:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-1px); }
+
+  .hero-visual {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-card-stack {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .hero-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 32px rgba(14,14,12,0.08);
+  }
+
+  .hero-card-back {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    width: 100%;
+    background: var(--accent-light);
+    border: 1px solid rgba(43,95,78,0.2);
+    border-radius: 16px;
+    padding: 1.5rem;
+    z-index: -1;
+  }
+
+  .card-tag {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.75rem;
+  }
+
+  .card-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: var(--black);
+  }
+
+  .card-items { list-style: none; }
+
+  .card-items li {
+    font-size: 0.875rem;
+    color: var(--muted);
+    padding: 0.4rem 0;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .card-items li:last-child { border-bottom: none; }
+
+  .dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+    flex-shrink: 0;
+  }
+
+  .dot-gold { background: var(--gold); }
+
+  /* DIVIDER */
+  .section-divider {
+    width: 100%;
+    height: 1px;
+    background: var(--border);
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  /* TRUST BAR */
+  .trust-bar {
+    background: var(--cream);
+    padding: 1.5rem 5%;
+    text-align: center;
+  }
+
+  .trust-bar p {
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 1rem;
+  }
+
+  .trust-tags {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .trust-tag {
+    font-size: 0.85rem;
+    color: var(--ink);
+    background: var(--white);
+    border: 1px solid var(--border);
+    padding: 0.35rem 0.9rem;
+    border-radius: 100px;
+  }
+
+  /* SECTIONS */
+  section {
+    padding: 5rem 5%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .section-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.75rem;
+  }
+
+  .section-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+    line-height: 1.2;
+    color: var(--black);
+    letter-spacing: -0.02em;
+    margin-bottom: 1rem;
+  }
+
+  .section-sub {
+    font-size: 1rem;
+    color: var(--muted);
+    max-width: 520px;
+    line-height: 1.75;
+    margin-bottom: 3rem;
+  }
+
+  /* PROBLEM SECTION */
+  .problem-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .problem-card {
+    background: var(--cream);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.75rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .problem-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 3px;
+    height: 100%;
+    background: var(--gold);
+  }
+
+  .problem-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .problem-card h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--black);
+  }
+
+  .problem-card p {
+    font-size: 0.9rem;
+    color: var(--muted);
+    line-height: 1.65;
+  }
+
+  /* SERVICES */
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .service-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 2rem;
+    transition: border-color 0.2s, transform 0.2s;
+    position: relative;
+  }
+
+  .service-card:hover {
+    border-color: var(--accent-mid);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 32px rgba(43,95,78,0.1);
+  }
+
+  .service-num {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.5rem;
+    color: var(--accent-light);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+
+  .service-card h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--black);
+    margin-bottom: 0.75rem;
+  }
+
+  .service-card p {
+    font-size: 0.9rem;
+    color: var(--muted);
+    line-height: 1.7;
+    margin-bottom: 1rem;
+  }
+
+  .service-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .service-tag {
+    font-size: 0.75rem;
+    background: var(--accent-light);
+    color: var(--accent);
+    padding: 0.25rem 0.65rem;
+    border-radius: 100px;
+    font-weight: 500;
+  }
+
+  .service-featured {
+    background: var(--accent);
+    color: var(--white);
+    border-color: var(--accent);
+  }
+
+  .service-featured h3, .service-featured p { color: var(--white); }
+  .service-featured .service-num { color: rgba(255,255,255,0.2); }
+  .service-featured .service-tag {
+    background: rgba(255,255,255,0.15);
+    color: var(--white);
+  }
+
+  /* ABOUT */
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  .about-visual {
+    background: var(--cream);
+    border-radius: 20px;
+    padding: 2.5rem;
+    border: 1px solid var(--border);
+  }
+
+  .about-initials {
+    width: 80px; height: 80px;
+    border-radius: 50%;
+    background: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.6rem;
+    color: var(--white);
+    margin-bottom: 1.5rem;
+  }
+
+  .about-visual h3 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.3rem;
+    margin-bottom: 0.25rem;
+    color: var(--black);
+  }
+
+  .about-visual .role {
+    font-size: 0.875rem;
+    color: var(--gold);
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+  }
+
+  .skills-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .skills-list li {
+    font-size: 0.875rem;
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .about-content h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(1.8rem, 3vw, 2.5rem);
+    line-height: 1.2;
+    color: var(--black);
+    margin-bottom: 1.25rem;
+    letter-spacing: -0.02em;
+  }
+
+  .about-content p {
+    font-size: 0.975rem;
+    color: var(--muted);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+  }
+
+  .about-stats {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .stat h4 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2rem;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 0.25rem;
+  }
+
+  .stat p {
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin: 0;
+    font-weight: 500;
+  }
+
+  /* HOW IT WORKS */
+  .how-section {
+    background: var(--cream);
+    padding: 5rem 5%;
+  }
+
+  .how-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0;
+    position: relative;
+  }
+
+  .steps-grid::before {
+    content: '';
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    right: 2rem;
+    height: 1px;
+    background: var(--border);
+  }
+
+  .step {
+    padding: 0 1.5rem;
+    position: relative;
+  }
+
+  .step-num {
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    background: var(--white);
+    border: 1.5px solid var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--accent);
+    margin-bottom: 1.5rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .step h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--black);
+    margin-bottom: 0.5rem;
+  }
+
+  .step p {
+    font-size: 0.875rem;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+
+  /* CTA */
+  .cta-section {
+    background: var(--accent);
+    padding: 5rem 5%;
+    text-align: center;
+  }
+
+  .cta-inner {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .cta-section .section-label { color: rgba(255,255,255,0.6); }
+
+  .cta-section h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    color: var(--white);
+    margin-bottom: 1rem;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+  }
+
+  .cta-section p {
+    font-size: 1rem;
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 2.5rem;
+    line-height: 1.7;
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn-white {
+    background: var(--white);
+    color: var(--accent);
+    padding: 0.85rem 2rem;
+    border-radius: 100px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+
+  .btn-white:hover { opacity: 0.9; }
+
+  .btn-ghost {
+    background: transparent;
+    color: var(--white);
+    padding: 0.85rem 2rem;
+    border-radius: 100px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-decoration: none;
+    border: 1.5px solid rgba(255,255,255,0.4);
+    transition: border-color 0.2s;
+  }
+
+  .btn-ghost:hover { border-color: var(--white); }
+
+  /* CONTACT */
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+  }
+
+  .contact-info h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(1.8rem, 3vw, 2.5rem);
+    color: var(--black);
+    margin-bottom: 1rem;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+
+  .contact-info p {
+    font-size: 0.975rem;
+    color: var(--muted);
+    line-height: 1.75;
+    margin-bottom: 2rem;
+  }
+
+  .contact-detail {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .contact-icon {
+    width: 36px; height: 36px;
+    border-radius: 8px;
+    background: var(--accent-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+  }
+
+  .contact-detail span {
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+
+  .contact-detail a {
+    font-size: 0.9rem;
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .contact-form {
+    background: var(--cream);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 2.5rem;
+  }
+
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .form-group label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--ink);
+    letter-spacing: 0.02em;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--white);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    color: var(--ink);
+    transition: border-color 0.2s;
+    outline: none;
+    width: 100%;
+  }
+
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    border-color: var(--accent);
+  }
+
+  .form-group textarea { resize: vertical; min-height: 120px; }
+
+  .form-submit {
+    width: 100%;
+    padding: 0.9rem;
+    background: var(--accent);
+    color: var(--white);
+    border: none;
+    border-radius: 100px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  .form-submit:hover { background: #1d4336; }
+
+  /* FOOTER */
+  footer {
+    background: var(--black);
+    color: rgba(255,255,255,0.6);
+    padding: 3rem 5%;
+    text-align: center;
+  }
+
+  .footer-logo {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.3rem;
+    color: var(--white);
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-logo span { color: var(--gold); }
+
+  footer p {
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+    line-height: 1.6;
+  }
+
+  footer a { color: rgba(255,255,255,0.4); text-decoration: none; }
+  footer a:hover { color: var(--white); }
+
+  .footer-links {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin: 1.5rem 0;
+    flex-wrap: wrap;
+  }
+
+  .footer-links a {
+    font-size: 0.85rem;
+  }
+
+  /* MOBILE */
+  @media (max-width: 768px) {
+    nav { padding: 1rem 1.25rem; }
+    .nav-links { display: none; }
+    .hero { grid-template-columns: 1fr; padding: 6rem 1.25rem 3rem; gap: 3rem; }
+    .hero-visual { display: none; }
+    .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 2rem; }
+    .form-row { grid-template-columns: 1fr; }
+    section { padding: 4rem 1.25rem; }
+    .steps-grid::before { display: none; }
+    .step { padding: 0 0 1.5rem; }
+    .about-stats { gap: 1.5rem; }
+    .hero-buttons { flex-direction: column; }
+    .how-section { padding: 4rem 1.25rem; }
+    .cta-section { padding: 4rem 1.25rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#home" class="nav-logo">Precision<span>Ops</span></a>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#how">How It Works</a></li>
+    <li><a href="https://calendly.com/precisionopsconsultation" target="_blank" class="nav-cta">Book a call</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div id="home" class="hero">
+  <div class="hero-content">
+    <div class="hero-eyebrow">Agile Project & Operations Partner</div>
+    <h1 class="hero-title">Your projects. <em>Running clean.</em></h1>
+    <p class="hero-sub">I help startup and small-business founders run their operations and projects so nothing falls through the cracks, deadlines stay clear, and they can focus on growth.</p>
+    <div class="hero-buttons">
+      <a href="https://calendly.com/precisionopsconsultation" target="_blank" class="btn-primary">Book a free discovery call</a>
+      <a href="#services" class="btn-outline">See what I offer</a>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="hero-card-stack">
+      <div class="hero-card-back"></div>
+      <div class="hero-card">
+        <div class="card-tag">Current sprint</div>
+        <div class="card-title">Product Launch   Week 3</div>
+        <ul class="card-items">
+          <li><span class="dot"></span> Stakeholder brief   Done</li>
+          <li><span class="dot"></span> Landing page copy   In review</li>
+          <li><span class="dot dot-gold"></span> Email sequence   In progress</li>
+          <li><span class="dot" style="background:#ddd"></span> Launch checklist   Pending</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <p>Tools I work with</p>
+  <p style="font-size:0.8rem; color:var(--muted); margin-bottom:1rem; text-transform:none; letter-spacing:0; font-weight:400;">The core tools I use to run projects, operations, and automations for founders.</p>
+  <div class="trust-tags">
+    <span class="trust-tag">ClickUp</span>
+    <span class="trust-tag">Asana</span>
+    <span class="trust-tag">Notion</span>
+    <span class="trust-tag">Jira</span>
+    <span class="trust-tag">Google Workspace</span>
+    <span class="trust-tag">Slack</span>
+    <span class="trust-tag">Zapier</span>
+    <span class="trust-tag">Trello</span>
+    <span class="trust-tag">Zoom</span>
+    <span class="trust-tag">Scrum / Kanban</span>
+  </div>
+</div>
+
+<!-- PROBLEM SECTION -->
+<section id="problem">
+  <div class="section-label">Sound familiar?</div>
+  <h2 class="section-title">The chaos most founders live in</h2>
+  <p class="section-sub">You're building something real. But your operations are holding you back.</p>
+
+  <div class="problem-grid">
+    <div class="problem-card">
+      <div class="problem-icon">📋</div>
+      <h3>No clear systems</h3>
+      <p>Everything lives in your head or scattered across apps. Your team doesn't know who's doing what or when.</p>
+    </div>
+    <div class="problem-card">
+      <div class="problem-icon">⏱️</div>
+      <h3>Deadlines keep slipping</h3>
+      <p>Projects drag on. Milestones get pushed. No one flags risks early enough to fix them.</p>
+    </div>
+    <div class="problem-card">
+      <div class="problem-icon">📥</div>
+      <h3>Admin is eating your time</h3>
+      <p>You're in your inbox all day. Calendars clash. Follow-ups fall through. You're not in CEO mode.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="section-label">What I offer</div>
+  <h2 class="section-title">Operations and project clarity, start to finish</h2>
+  <p class="section-sub">I take over your projects and operations so you can stay focused on building.</p>
+
+  <div class="services-grid">
+    <div class="service-card service-featured">
+      <h3>Founders' Project Management</h3>
+      <p>Plan and run your key projects from kick-off to delivery. Clear milestones, risk tracking, and weekly progress updates so nothing goes quiet.</p>
+      <div class="service-tags">
+        <span class="service-tag">Launches</span>
+        <span class="service-tag">Campaigns</span>
+        <span class="service-tag">Events</span>
+        <span class="service-tag">Product updates</span>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <h3>Project & Operations Setup</h3>
+      <p>Build simple systems, SOPs, and workflows for your business. Map your current chaos into a clear operating model. Who does what, when, and how.</p>
+      <div class="service-tags">
+        <span class="service-tag">SOPs</span>
+        <span class="service-tag">Workflows</span>
+        <span class="service-tag">Tool setup</span>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <h3>Remote Team Operations</h3>
+      <p>Coordinate your small remote team so everyone knows what to do and when. Own the communication hubs so you stop being the bottleneck.</p>
+      <div class="service-tags">
+        <span class="service-tag">Slack</span>
+        <span class="service-tag">Task management</span>
+        <span class="service-tag">Team sync</span>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <h3>Agile-Style Sprint Support</h3>
+      <p>Run short sprints, stand-ups, and sprint reviews using Scrum and Kanban principles. Predictable delivery, even for a tiny team.</p>
+      <div class="service-tags">
+        <span class="service-tag">Scrum</span>
+        <span class="service-tag">Kanban</span>
+        <span class="service-tag">Sprints</span>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <h3>Automation & Tool Tuning</h3>
+      <p>Audit and optimize your tools. Add automations for reminders, status updates, and reporting so you scale without adding more to your plate.</p>
+      <div class="service-tags">
+        <span class="service-tag">ClickUp</span>
+        <span class="service-tag">Zapier</span>
+        <span class="service-tag">Make</span>
+        <span class="service-tag">Automations</span>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <h3>Executive Virtual Assistance</h3>
+      <p>Calendar, inbox, travel, follow-ups, research. The operational layer that keeps you running without you having to manage it yourself.</p>
+      <div class="service-tags">
+        <span class="service-tag">Calendar</span>
+        <span class="service-tag">Inbox</span>
+        <span class="service-tag">Research</span>
+        <span class="service-tag">Follow-ups</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-visual">
+      <div class="about-initials">CW</div>
+      <h3>Caroline Wambui</h3>
+      <div class="role">PrecisionOps Consultation · Remote</div>
+      <p style="font-size:0.875rem; color:var(--muted); line-height:1.8; margin-bottom:0.75rem;">I'm Caroline Wambui. I work with startup and small-business leaders who need someone to own the operational side of their business, not just execute tasks.</p>
+      <p style="font-size:0.875rem; color:var(--muted); line-height:1.8; margin-bottom:0.75rem;">I communicate clearly, flag problems early, and keep work moving without needing to be managed. In a remote setup, that matters more than any tool or certification. You will always know what's happening, what's next, and what needs your attention.</p>
+      <p style="font-size:0.875rem; color:var(--muted); line-height:1.8;">My background covers project management, operations, executive support, Agile delivery, and workflow automation. I bring all of it into every engagement so nothing falls to the side.</p>
+    </div>
+
+    <div class="about-content">
+      <div class="section-label">What clients actually get</div>
+      <h2>Your projects move. Your team stays aligned. You stop being the bottleneck.</h2>
+      <p>Most founders end up managing the person they hired to manage things. You check for updates, remind people of deadlines, and still end up holding everything together. That's the gap I close.</p>
+      <p>I take full ownership of your projects and operations. Clear plans, tracked milestones, proactive communication. You're not chasing updates or firefighting every week.</p>
+      <p>Problems get caught before they reach you. Decisions get documented so your team moves without you. Systems hold up when things get busy. That's what working together actually looks like.</p>
+
+      <div class="about-stats">
+        <div class="stat">
+          <h4>1+</h4>
+          <p>Year in ops & project management</p>
+        </div>
+        <div class="stat">
+          <h4>Agile</h4>
+          <p>Scrum practitioner</p>
+        </div>
+        <div class="stat">
+          <h4>Remote</h4>
+          <p>Available worldwide</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<div id="testimonials" style="background: var(--cream); padding: 5rem 5%;">
+  <div style="max-width: 1100px; margin: 0 auto;">
+    <div class="section-label">What clients say</div>
+    <h2 class="section-title">Real feedback from real work</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 2.5rem;">
+
+      <div style="background: var(--white); border: 1px solid var(--border); border-radius: 16px; padding: 2rem; display: flex; flex-direction: column; gap: 1.25rem;">
+        <div style="display: flex; gap: 0.25rem;">
+          <span style="color: var(--gold); font-size: 0.9rem;">★★★★★</span>
+        </div>
+        <p style="font-size: 0.95rem; color: var(--ink); line-height: 1.75; font-style: italic;">"Caroline tested our product from onboarding to upgrading. She provided a concise document outlining her findings. She was very responsive during the entire process."</p>
+        <div style="display: flex; align-items: center; gap: 0.75rem; margin-top: auto;">
+          <div style="width: 36px; height: 36px; border-radius: 50%; background: var(--accent-light); display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 600; color: var(--accent);">ST</div>
+          <div>
+            <p style="font-size: 0.875rem; font-weight: 600; color: var(--black); margin: 0;">Stephanie</p>
+            <p style="font-size: 0.8rem; color: var(--muted); margin: 0;">Beta Testing · <a href="https://www.upwork.com/freelancers/~018633128e08236430" target="_blank" style="color: var(--accent); text-decoration: none; font-weight: 500;">✓ Upwork</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div style="background: var(--white); border: 1px solid var(--border); border-radius: 16px; padding: 2rem; display: flex; flex-direction: column; gap: 1.25rem;">
+        <div style="display: flex; gap: 0.25rem;">
+          <span style="color: var(--gold); font-size: 0.9rem;">★★★★★</span>
+        </div>
+        <p style="font-size: 0.95rem; color: var(--ink); line-height: 1.75; font-style: italic;">"Thank you for your prompt and thoughtful feedback as a beta tester for Moola. Clear communicator. Detail oriented."</p>
+        <div style="display: flex; align-items: center; gap: 0.75rem; margin-top: auto;">
+          <div style="width: 36px; height: 36px; border-radius: 50%; background: var(--accent-light); display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 600; color: var(--accent);">LI</div>
+          <div>
+            <p style="font-size: 0.875rem; font-weight: 600; color: var(--black); margin: 0;">Linda</p>
+            <p style="font-size: 0.8rem; color: var(--muted); margin: 0;">Product Feedback · <a href="https://www.upwork.com/freelancers/~018633128e08236430" target="_blank" style="color: var(--accent); text-decoration: none; font-weight: 500;">✓ Upwork</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div style="background: var(--accent); border-radius: 16px; padding: 2rem; display: flex; flex-direction: column; gap: 1.25rem;">
+        <div style="display: flex; gap: 0.25rem;">
+          <span style="color: rgba(255,255,255,0.6); font-size: 0.9rem;">★★★★★</span>
+        </div>
+        <p style="font-size: 0.95rem; color: rgba(255,255,255,0.9); line-height: 1.75; font-style: italic;">"Committed to quality. Great work."</p>
+        <div style="display: flex; align-items: center; gap: 0.75rem; margin-top: auto;">
+          <div style="width: 36px; height: 36px; border-radius: 50%; background: rgba(255,255,255,0.15); display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 600; color: var(--white);">AM</div>
+          <div>
+            <p style="font-size: 0.875rem; font-weight: 600; color: var(--white); margin: 0;">Amanda</p>
+            <p style="font-size: 0.8rem; color: rgba(255,255,255,0.6); margin: 0;">Executive VA · <a href="https://www.upwork.com/freelancers/~018633128e08236430" target="_blank" style="color: rgba(255,255,255,0.8); text-decoration: none; font-weight: 500;">✓ Upwork</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div style="background: var(--white); border: 1px solid var(--border); border-radius: 16px; padding: 2rem; display: flex; flex-direction: column; gap: 1.25rem;">
+        <div style="display: flex; gap: 0.25rem;">
+          <span style="color: var(--gold); font-size: 0.9rem;">★★★★★</span>
+        </div>
+        <p style="font-size: 0.95rem; color: var(--ink); line-height: 1.75; font-style: italic;">"I had the opportunity to work with Caroline during my bootcamp and she exceeded expectations as my VA. She proposed a solution for a smoother run of my event and managed daily tasks and commitments with little intervention from me. I highly recommend her services as a proactive professional."</p>
+        <div style="display: flex; align-items: center; gap: 0.75rem; margin-top: auto;">
+          <div style="width: 36px; height: 36px; border-radius: 50%; background: var(--gold-light); display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 600; color: var(--gold);">EM</div>
+          <div>
+            <p style="font-size: 0.875rem; font-weight: 600; color: var(--black); margin: 0;">Emmanuella</p>
+            <p style="font-size: 0.8rem; color: var(--muted); margin: 0;">✓ LinkedIn</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- HOW IT WORKS -->
+<div id="how" class="how-section">
+  <div class="how-inner">
+    <div class="section-label">How it works</div>
+    <h2 class="section-title">From chaos to clarity in four steps</h2>
+    <p class="section-sub">No long onboarding. No complicated process. Just structured work from day one.</p>
+
+    <div class="steps-grid">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>Discovery call</h3>
+        <p>We talk for 30 minutes. You tell me what's broken. I ask questions. We figure out where to start.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>Ops audit</h3>
+        <p>I map your current setup. What tools you use, where things break, what's eating your time.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>Build the system</h3>
+        <p>I set up your workflows, project plans, and operating rhythm. Clear, simple, and usable by your team.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <h3>Ongoing delivery</h3>
+        <p>I run your projects and ops weekly. You get updates. Things move. Nothing falls through the cracks.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CTA -->
+<div class="cta-section">
+  <div class="cta-inner">
+    <div class="section-label">Ready to start?</div>
+    <h2>Stop running projects from your inbox.</h2>
+    <p>Book a free 30-minute discovery call. We'll talk about where your ops are breaking and whether I'm the right fit to fix it.</p>
+    <div class="cta-buttons">
+      <a href="https://calendly.com/precisionopsconsultation" target="_blank" class="btn-white">Book a free 30-minute discovery call</a>
+      <a href="#services" class="btn-ghost">See all services</a>
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-grid">
+    <div class="contact-info">
+      <div class="section-label">Contact</div>
+      <h2>Let's talk about your operations</h2>
+      <p>Send me a message and I'll get back to you within 24 hours. If you already know what you need, tell me and we skip straight to a proposal.</p>
+      <p style="font-size:0.8rem; color:var(--muted);">Your information is private and will never be shared.</p>
+
+      <div class="contact-detail">
+        <div class="contact-icon">📅</div>
+        <a href="https://calendly.com/precisionopsconsultation" target="_blank">Book a free discovery call on Calendly</a>
+      </div>
+      <div class="contact-detail">
+        <div class="contact-icon">💼</div>
+        <a href="https://www.upwork.com/freelancers/~018633128e08236430" target="_blank">Find me on Upwork</a>
+      </div>
+      <div class="contact-detail">
+        <div class="contact-icon">🔗</div>
+        <a href="https://linkedin.com" target="_blank">Connect on LinkedIn</a>
+      </div>
+      <div class="contact-detail">
+        <div class="contact-icon">🌍</div>
+        <span>Available for remote work worldwide</span>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <form action="https://formspree.io/f/mgorzver" method="POST">
+      <div class="form-row">
+        <div class="form-group">
+          <label>First name</label>
+          <input type="text" name="first_name" placeholder="Jane">
+        </div>
+        <div class="form-group">
+          <label>Last name</label>
+          <input type="text" name="last_name" placeholder="Doe">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" name="email" placeholder="jane@yourstartup.com" required>
+      </div>
+      <div class="form-group">
+        <label>What do you need help with?</label>
+        <select name="service">
+          <option value="">Select a service</option>
+          <option>Founders' Project Management</option>
+          <option>Project & Operations Setup</option>
+          <option>Remote Team Operations</option>
+          <option>Agile Sprint Support</option>
+          <option>Automation & Tool Tuning</option>
+          <option>Executive Virtual Assistance</option>
+          <option>Not sure yet</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Tell me more</label>
+        <textarea name="message" placeholder="Briefly describe your project or what's holding you back..."></textarea>
+      </div>
+      <button type="submit" class="form-submit">Send message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- CALENDLY -->
+<div id="book" style="background: var(--cream); padding: 2rem 5% 4rem;">
+  <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+    <div class="section-label">Book a call</div>
+    <h2 class="section-title">Pick a time that works for you</h2>
+    <p class="section-sub" style="margin: 0 auto 2rem;">A free 30-minute call. No pressure. We talk about what's not working and whether I'm the right fit.</p>
+    <!-- Calendly inline widget begin -->
+    <div class="calendly-inline-widget" data-url="https://calendly.com/precisionopsconsultation?primary_color=18d4b0" style="min-width:320px;height:700px;"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    <!-- Calendly inline widget end -->
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Precision<span>Ops</span> Consultation</div>
+  <p>Agile Project & Operations Partner for startup and small-business leaders.</p>
+  <div class="footer-links">
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#how">How it works</a>
+    <a href="#book">Book a call</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <p style="font-size: 0.8rem; opacity: 0.5;">© 2025 PrecisionOps Consultation · Remote, Worldwide</p>
+</footer>
+
+</body>
+</html>
